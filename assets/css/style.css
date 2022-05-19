@@ -1,0 +1,81 @@
+/* bootsrtap修正 */
+.modal-backdrop.show{
+    z-index: 999;
+}
+/* ============================= 基礎設定 ============================= */
+body{
+    font-family: 'Roboto','Noto Sans TC',sans-serif;
+    
+}
+.logo figure{
+    max-width: 14rem;
+    margin-bottom: 0;
+    margin: .5rem auto;
+}
+.logo figure img {
+    width: 100%;
+}
+.sidemenu .logo figure {
+    max-width: 10rem;
+}
+.logo-text{
+    font-family: 'Whisper','Roboto','Noto Sans TC',sans-serif;
+    background: linear-gradient(to top, #533419, #F08F53, #ffd700);
+    background: -webkit-linear-gradient(to top, #533419, #F08F53, gold);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    padding: auto .25rem;
+}
+.sidemenu .offcanvas-body .nav-link i{
+    margin-right: 1rem;
+}
+.sidemenu .offcanvas-body .nav-link {
+    font-size: 1.25rem;
+}
+.nav-pills .nav-link.active,
+.nav-pills .nav-link:hover {
+    background-color: black;
+    color: #fff;
+}
+.nav-link {
+    color: black;
+}
+.page-link{
+    color: #454645;
+}
+.page-item.active .page-link{
+    border-color: #454645;
+    background-color: #454645;
+    color: #fff;
+}
+/* 表格 */
+table .fa-solid{
+    color: black;
+}
+td {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    vertical-align: middle;
+    text-align: start;
+}
+
+
+/* 圖片 */
+.prd-list_img {
+    max-width: 100px;
+    /* max-height: 100px; */
+    overflow: hidden;
+    margin: auto;
+    text-align: center;
+}
+.prd-list_img img {
+    height: 100px;
+    width: auto;
+
+}
+
+img {
+    object-fit: cover;
+    width: 100%;
+}
